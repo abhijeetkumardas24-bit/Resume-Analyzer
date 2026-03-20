@@ -4,8 +4,8 @@
  */
 import axios from 'axios'
 import { supabase } from '../services/supabase'
-tt
-const API_URL = import.meta.env.VITE_API_URL || 'https://resume-analyzer-1-p31b.onrender.com'
+
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
 const api = axios.create({
   baseURL: API_URL,
